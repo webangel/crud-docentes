@@ -1,0 +1,85 @@
+{
+  "docentes": [
+    {
+      "nombre": "Juan",
+      "apellido": "Pérez",
+      "email": "juan.perez@example.com",
+      "telefono": "1234567890",
+      "direccion": "Calle Falsa 123",
+      "especialidad": "Matemáticass",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "nombre": "Ana",
+      "apellido": "García",
+      "email": "ana.garcia@example.com",
+      "telefono": "0987654321",
+      "direccion": "Avenida Siempre Viva 742",
+      "especialidad": "Física"
+    },
+    {
+      "id": "3",
+      "nombre": "Carlos",
+      "apellido": "López",
+      "email": "carlos.lopez@example.com",
+      "telefono": "5555555555",
+      "direccion": "Boulevard de los Sueños Rotos 15",
+      "especialidad": "Química"
+    },
+    {
+      "id": "4",
+      "nombre": "María",
+      "apellido": "Martínez",
+      "email": "maria.martinez@example.com",
+      "telefono": "4444444444",
+      "direccion": "Callejón del Beso 20",
+      "especialidad": "Biología"
+    },
+    {
+      "id": "5",
+      "nombre": "Pedro",
+      "apellido": "González",
+      "email": "pedro.gonzalez@example.com",
+      "telefono": "6666666666",
+      "direccion": "Plaza de la Revolución 1",
+      "especialidad": "Historia"
+    },
+    {
+      "id": "6",
+      "nombre": "Lucía",
+      "apellido": "Hernández",
+      "email": "lucia.hernandez@example.com",
+      "telefono": "7777777777",
+      "direccion": "Calle de la Paz 8",
+      "especialidad": "Geografía"
+    },
+    {
+      "id": "7",
+      "nombre": "Miguel",
+      "apellido": "Fernández",
+      "email": "miguel.fernandez@example.com",
+      "telefono": "8888888888",
+      "direccion": "Avenida de la Independencia 11",
+      "especialidad": "Filosofía"
+    },
+    {
+      "nombre": "xc",
+      "apellido": "xc",
+      "email": "xc@gmail.com",
+      "telefono": "123456789",
+      "direccion": "xcxcxcxcxcxcxcxcxcxcxcxcxc",
+      "especialidad": "Biología",
+      "id": "7345"
+    },
+    {
+      "id": "7c49",
+      "nombre": "rt",
+      "apellido": "rt",
+      "email": "as@gmail.com",
+      "telefono": "123456789",
+      "direccion": "rt",
+      "especialidad": "rt"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+<mat-toolbar color="primary">
+  <span>{{ isEditMode ? "Editar Docente" : "Agregar Docente" }}</span>
+</mat-toolbar>
+<br /><br />
+<form [formGroup]="docenteForm" (ngSubmit)="onSubmit()">
+  <mat-grid-list cols="1" rowHeight="2:0.07">
+    <mat-grid-tile>
+      <mat-form-field appearance="fill">
+        <mat-label>Nombre</mat-label>
+        <input matInput formControlName="nombre" />
+      </mat-form-field>
+      &nbsp;
+      <mat-form-field appearance="fill">
+        <mat-label>Apellido</mat-label>
+        <input matInput formControlName="apellido" />
+      </mat-form-field>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email" />
+      </mat-form-field>
+      &nbsp;
+      <mat-form-field appearance="fill">
+        <mat-label>Teléfono</mat-label>
+        <input matInput formControlName="telefono" />
+      </mat-form-field>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <mat-form-field appearance="fill">
+        <mat-label>Dirección</mat-label>
+        <input matInput formControlName="direccion" />
+      </mat-form-field>
+      &nbsp;
+      <mat-form-field appearance="fill">
+        <mat-label>Especialidad</mat-label>
+        <input matInput formControlName="especialidad" />
+      </mat-form-field>
+    </mat-grid-tile>
+    <mat-grid-tile>
+      <button mat-raised-button color="primary" type="submit">Guardar</button>
+      &nbsp;
+      <button mat-raised-button color="warn" (click)="onCancel()">
+        Cancelar
+      </button>
+    </mat-grid-tile>
+  </mat-grid-list>
+</form>
